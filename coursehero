@@ -1,0 +1,4 @@
+let content = document.querySelector('main.bdp_docViewerWide_main');
+$('.bdp_doc-viewer_notification').after(content.innerHTML);
+$('.mfp-bg.mfp-ready, .mfp-content').hide();
+document.querySelector('body').style.overflow = 'auto';
