@@ -1,0 +1,3 @@
+let terms = document.querySelectorAll('.SetPageTerm.has-definitionText, .SetPageTerms-termsList');
+for (let term of terms) term.classList.add('is-showing');
+document.querySelector('.SignupWallInline').style.display = 'none';
